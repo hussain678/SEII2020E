@@ -1,0 +1,31 @@
+<html>
+
+     <head>
+    
+        <title>Regullar expression</title>
+     </head>
+
+    <body>
+    
+                 <script type="text/javascript">
+        
+        
+        
+                 
+                     var regex=/^[a-z][a-z\s]*$/;
+                     var regex=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                     var str="abc@xyz.com";
+                     if(regex.test(str)){
+                         alert("correct");
+                     }
+                     else{
+                         alert("does not match");
+                     }
+                     
+        
+                </script>
+    
+    
+    </body>
+    
+</html>
